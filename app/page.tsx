@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-export default function Home(): JSX.Element {
+export default function Home() {
   const [dark, setDark] = useState<boolean>(false)
 
   const skills: string[] = [
